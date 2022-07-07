@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-size: 2em;
+}
+
+img {
+    object-fit: fill;
+}
+
+@media only screen and (max-width: 1200px) {
+    .imgSection {
+        display: none !important;
+    }
+}
+
+p, h3, h4, h6, ul{
+    padding: 0 1em;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.list {
+    list-style-type: circle;
+}
+
+.section1 {
+    display: flex;
+    width: 100vw;
+}
+.section2 {
+    display: flex;
+    width: 100vw;
+}
+.section3 {
+    display: flex;
+    width: 100vw;
+}
+
+.tile {
+    flex: 1;
+    height: 100vh;
+}
+
+.tile1 {
+    background-color: #F4D35E;
+    font-size: 1.5em;
+}
+.tile4 {
+    background-color: #C4D6B0;
+}
+.tile5 {
+    background-color: #9AC2C9;
+    text-align: left;
+}
